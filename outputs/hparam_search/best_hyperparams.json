@@ -1,0 +1,23 @@
+{
+  "run_id": "run_017_lr0p003_h256_wd0p001_relu",
+  "status": "ok",
+  "error_message": "",
+  "lr": 0.003,
+  "hidden_dim": 256,
+  "hidden_dim2": 256,
+  "weight_decay": 0.001,
+  "activation": "relu",
+  "batch_size": 64,
+  "epochs": 30,
+  "decay_rate": 0.9,
+  "decay_every": 5,
+  "best_val_acc": 0.6525925925925926,
+  "best_val_loss": 1.0300770459351716,
+  "best_train_acc": 0.8674074074074074,
+  "best_train_loss": 0.9703499413873272,
+  "best_epoch": 30,
+  "checkpoint_path": "D:\\PythonCode\\Fdeeplearning\\hw1_mlp_eurosat\\outputs\\hparam_search\\run_017_lr0p003_h256_wd0p001_relu\\best_model.npz",
+  "train_log_path": "D:\\PythonCode\\Fdeeplearning\\hw1_mlp_eurosat\\outputs\\hparam_search\\run_017_lr0p003_h256_wd0p001_relu\\train_log.csv",
+  "elapsed_seconds": 598.254876613617,
+  "best_overall_model_path": "D:\\PythonCode\\Fdeeplearning\\hw1_mlp_eurosat\\outputs\\hparam_search\\best_overall_model.npz"
+}

@@ -1,0 +1,50 @@
+{
+  "image_size": [
+    64,
+    64
+  ],
+  "pixel_scale": 255.0,
+  "mean_rgb": [
+    0.3444679368385942,
+    0.3802912794579632,
+    0.40785703629724207
+  ],
+  "std_rgb": [
+    0.20366882721759919,
+    0.13647188746278124,
+    0.11480282503382983
+  ],
+  "num_train_images": 18900,
+  "num_pixels_per_channel": 77414400,
+  "class_to_idx": {
+    "AnnualCrop": 0,
+    "Forest": 1,
+    "HerbaceousVegetation": 2,
+    "Highway": 3,
+    "Industrial": 4,
+    "Pasture": 5,
+    "PermanentCrop": 6,
+    "Residential": 7,
+    "River": 8,
+    "SeaLake": 9
+  },
+  "idx_to_class": {
+    "0": "AnnualCrop",
+    "1": "Forest",
+    "2": "HerbaceousVegetation",
+    "3": "Highway",
+    "4": "Industrial",
+    "5": "Pasture",
+    "6": "PermanentCrop",
+    "7": "Residential",
+    "8": "River",
+    "9": "SeaLake"
+  },
+  "split_ratio": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "seed": 42,
+  "note": "mean_rgb 和 std_rgb 是在训练集上、对已经除以 255.0 的 RGB 图片计算得到的；验证集、测试集、预测图片都应使用同一组参数。"
+}
